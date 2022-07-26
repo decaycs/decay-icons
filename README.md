@@ -4,11 +4,11 @@ This is a port of [Decay Colorscheme](https://github.com/decaycs) for [Papirus I
 
 ![demonstration](./assets/main.png)
 
-## — Requirements
+## Requirements
 
 Ensure [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) is installed.
 
-## — Installation
+## Installation
 
 ```sh
 
@@ -31,5 +31,5 @@ sudo cp -r src/* /usr/share/icons/Papirus
 Set the `gtk-icon-theme` to the theme the icons were applied to during installation in `~/.config/gtk-3.0/settings.ini`. Example:
 
 ```ini
-gtk-theme-name=Papirus-Dark # or Papirus-Light
+gtk-icon-theme-name=Papirus-Dark # or Papirus-Light
 ```

@@ -13,7 +13,8 @@ Ensure [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-ic
 ```sh
 
 # First, clone the repository and change location to the cloned directory:
-$ git clone https://github.com/decaycs/decay-papirus
+$ git clone https://github.com/decaycs/decay-icons
+cd decay-icons
 
 # Copy the contents of the src directory to /usr/share/icons/Papirus
 sudo cp -r src/* /usr/share/icons/Papirus
